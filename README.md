@@ -16,6 +16,7 @@ CompConsumer being quite trivial, it exposes only the following configuration pa
 | Env Var Name    | Default Value       | Purpose                                            |
 |-----------------|---------------------|----------------------------------------------------|
 | JOB_DURATION_SECONDS| 60                  | Run duration in seconds. Specify -1 for endless processing    |
+| JOB_MEMORY_MBS| 1024                  | Megabytes of memory to allocate on process startup    |
 
 ## Code
 
